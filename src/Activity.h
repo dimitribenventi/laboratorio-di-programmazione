@@ -1,6 +1,4 @@
-//
-// Created by dimitri benvenuti on 12/02/26.
-//
+
 
 #ifndef ACTIVITYREGISTER_ACTIVITY_H
 #define ACTIVITYREGISTER_ACTIVITY_H

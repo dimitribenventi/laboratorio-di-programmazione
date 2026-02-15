@@ -1,0 +1,12 @@
+gmock_main_autogen/timestamp: \
+	/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-4.1/Modules/CheckCSourceCompiles.cmake \
+	/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-4.1/Modules/CheckIncludeFile.cmake \
+	/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-4.1/Modules/CheckLibraryExists.cmake \
+	/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-4.1/Modules/FindPackageHandleStandardArgs.cmake \
+	/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-4.1/Modules/FindPackageMessage.cmake \
+	/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-4.1/Modules/FindThreads.cmake \
+	/Users/dimitribenvenuti/CLionProjects/ActivityRegister/lib/googletest/googlemock/CMakeLists.txt \
+	/Users/dimitribenvenuti/CLionProjects/ActivityRegister/lib/googletest/googlemock/cmake/gmock.pc.in \
+	/Users/dimitribenvenuti/CLionProjects/ActivityRegister/lib/googletest/googlemock/cmake/gmock_main.pc.in \
+	/Users/dimitribenvenuti/CLionProjects/ActivityRegister/lib/googletest/googlemock/src/gmock_main.cc \
+	/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake

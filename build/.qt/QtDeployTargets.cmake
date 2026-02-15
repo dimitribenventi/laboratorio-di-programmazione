@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_ActivityRegister_FILE /Users/dimitribenvenuti/CLionProjects/ActivityRegister/build/ActivityRegister)
+set(__QT_DEPLOY_TARGET_ActivityRegister_TYPE EXECUTABLE)

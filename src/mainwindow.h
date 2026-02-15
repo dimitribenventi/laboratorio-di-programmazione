@@ -1,16 +1,13 @@
-//
-// Created by dimitri benvenuti on 12/02/26.
-//
-
 #ifndef ACTIVITYREGISTER_MAINWINDOW_H
 #define ACTIVITYREGISTER_MAINWINDOW_H
-
 
 #include <QMainWindow>
 #include <QLineEdit>
 #include <QPushButton>
 #include <QListWidget>
 #include <QVBoxLayout>
+#include <QTimeEdit>
+#include <QTime>
 
 #include "Register.h"
 
@@ -23,7 +20,7 @@ public:
 
 private slots:
     void onAddActivityClicked();
-
+    void onActivityClicked(QListWidgetItem* item);
 private:
     void updateActivityList(const std::string& date);
 
@@ -31,9 +28,11 @@ private:
 
     QLineEdit *nameInput;
     QLineEdit *descriptionInput;
+    QTimeEdit *startTimeInput;
+    QTimeEdit *endTimeInput;
+
     QPushButton *addButton;
     QListWidget *activityList;
 };
-
 
 #endif //ACTIVITYREGISTER_MAINWINDOW_H

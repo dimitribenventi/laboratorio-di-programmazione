@@ -1,6 +1,4 @@
-//
-// Created by dimitri benvenuti on 12/02/26.
-//
+
 
 #ifndef ACTIVITYREGISTER_REGISTER_H
 #define ACTIVITYREGISTER_REGISTER_H
@@ -39,6 +37,13 @@ public:
             std::cout << a.getName()
                   << " (" << a.getStart()
                   << " - " << a.getEnd() << ")\n";
+        }
+    }
+
+    void removeActivityByIndex(const std::string& date, size_t index) {
+        auto it = activities.find(date);
+        if (it != activities.end() && index < it->second.size()) {
+            it->second.erase(it->second.begin() + index);
         }
     }
 };

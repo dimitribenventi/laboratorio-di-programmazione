@@ -1,0 +1,7 @@
+add_test([=[ActivityTest.NameGetter]=]  /Users/dimitribenvenuti/CLionProjects/ActivityRegister/cmake-build-debug/runAllTests [==[--gtest_filter=ActivityTest.NameGetter]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[ActivityTest.NameGetter]=]  PROPERTIES WORKING_DIRECTORY /Users/dimitribenvenuti/CLionProjects/ActivityRegister/cmake-build-debug SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[ActivityTest.TimeGetter]=]  /Users/dimitribenvenuti/CLionProjects/ActivityRegister/cmake-build-debug/runAllTests [==[--gtest_filter=ActivityTest.TimeGetter]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[ActivityTest.TimeGetter]=]  PROPERTIES WORKING_DIRECTORY /Users/dimitribenvenuti/CLionProjects/ActivityRegister/cmake-build-debug SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[RegisterTest.AddAndRetrieveActivity]=]  /Users/dimitribenvenuti/CLionProjects/ActivityRegister/cmake-build-debug/runAllTests [==[--gtest_filter=RegisterTest.AddAndRetrieveActivity]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[RegisterTest.AddAndRetrieveActivity]=]  PROPERTIES WORKING_DIRECTORY /Users/dimitribenvenuti/CLionProjects/ActivityRegister/cmake-build-debug SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  runAllTests_TESTS ActivityTest.NameGetter ActivityTest.TimeGetter RegisterTest.AddAndRetrieveActivity)

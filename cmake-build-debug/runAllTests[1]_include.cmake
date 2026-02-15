@@ -1,0 +1,5 @@
+if(EXISTS "/Users/dimitribenvenuti/CLionProjects/ActivityRegister/cmake-build-debug/runAllTests[1]_tests.cmake")
+  include("/Users/dimitribenvenuti/CLionProjects/ActivityRegister/cmake-build-debug/runAllTests[1]_tests.cmake")
+else()
+  add_test(runAllTests_NOT_BUILT runAllTests_NOT_BUILT)
+endif()
