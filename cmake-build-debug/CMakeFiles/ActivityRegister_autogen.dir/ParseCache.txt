@@ -892,6 +892,7 @@
  mdp:/Users/dimitribenvenuti/Qt/6.10.2/macos/lib/QtGui.framework/Versions/A/Headers/qtransform.h
  mdp:/Users/dimitribenvenuti/Qt/6.10.2/macos/lib/QtGui.framework/Versions/A/Headers/qvalidator.h
  mdp:/Users/dimitribenvenuti/Qt/6.10.2/macos/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h
+ mdp:/Users/dimitribenvenuti/Qt/6.10.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QDateEdit
  mdp:/Users/dimitribenvenuti/Qt/6.10.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QLineEdit
  mdp:/Users/dimitribenvenuti/Qt/6.10.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QListWidget
  mdp:/Users/dimitribenvenuti/Qt/6.10.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QMainWindow

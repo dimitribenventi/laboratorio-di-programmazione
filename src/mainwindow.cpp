@@ -30,6 +30,15 @@ MainWindow::MainWindow(QWidget *parent)
         updateActivityList(date);
     });
 
+    dateInput = new QDateEdit(this);
+    dateInput->setCalendarPopup(true);
+    dateInput->setDate(QDate::currentDate());
+
+    layout->addWidget(dateInput);
+
+    connect(dateInput, &QDateEdit::dateChanged,
+        this, &MainWindow::onDateChanged);
+
     nameInput = new QLineEdit(this);
     nameInput->setPlaceholderText("Activity name");
 
@@ -80,8 +89,8 @@ void MainWindow::onAddActivityClicked()
         end.toStdString()
     );
 
-    std::string date = "2026-02-12";
-
+    QString selectedDate = dateInput->date().toString("yyyy-MM-dd");
+    std::string date = selectedDate.toStdString();
     activityRegister.addActivity(date, activity);
 
     updateActivityList(date);
@@ -111,8 +120,8 @@ void MainWindow::onActivityClicked(QListWidgetItem* item)
 {
     int row = activityList->row(item);
 
-    std::string date = "2026-02-12";
-
+    QString selectedDate = dateInput->date().toString("yyyy-MM-dd");
+    std::string date = selectedDate.toStdString();
     auto activities = activityRegister.getActivitiesByDate(date);
 
     if(row >= 0 && row < static_cast<int>(activities.size())) {
@@ -121,4 +130,10 @@ void MainWindow::onActivityClicked(QListWidgetItem* item)
         QMessageBox::information(this, "Descrizione attività",
                                  QString::fromStdString(a.getDescription()));
     }
+}
+
+void MainWindow::onDateChanged(const QDate &date)
+{
+    std::string selectedDate = date.toString("yyyy-MM-dd").toStdString();
+    updateActivityList(selectedDate);
 }

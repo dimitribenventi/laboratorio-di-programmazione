@@ -888,6 +888,7 @@
   /Users/dimitribenvenuti/Qt/6.10.2/macos/lib/QtGui.framework/Versions/A/Headers/qtransform.h \
   /Users/dimitribenvenuti/Qt/6.10.2/macos/lib/QtGui.framework/Versions/A/Headers/qvalidator.h \
   /Users/dimitribenvenuti/Qt/6.10.2/macos/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h \
+  /Users/dimitribenvenuti/Qt/6.10.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QDateEdit \
   /Users/dimitribenvenuti/Qt/6.10.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QLineEdit \
   /Users/dimitribenvenuti/Qt/6.10.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QListWidget \
   /Users/dimitribenvenuti/Qt/6.10.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QMainWindow \

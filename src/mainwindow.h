@@ -7,6 +7,7 @@
 #include <QListWidget>
 #include <QVBoxLayout>
 #include <QTimeEdit>
+#include <QDateEdit>
 #include <QTime>
 
 #include "Register.h"
@@ -21,6 +22,7 @@ public:
 private slots:
     void onAddActivityClicked();
     void onActivityClicked(QListWidgetItem* item);
+    void onDateChanged(const QDate &date);
 private:
     void updateActivityList(const std::string& date);
 
@@ -30,6 +32,7 @@ private:
     QLineEdit *descriptionInput;
     QTimeEdit *startTimeInput;
     QTimeEdit *endTimeInput;
+    QDateEdit *dateInput;
 
     QPushButton *addButton;
     QListWidget *activityList;
